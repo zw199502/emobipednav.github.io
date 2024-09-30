@@ -1570,6 +1570,7 @@ html.w-mod-touch * {
 
 /* Adjust the box containing the authors */
 .box.alt {
+    margin-top: 2em;
     margin-bottom: 1em;
 }
 
@@ -1580,7 +1581,7 @@ html.w-mod-touch * {
     width: 80px; /* Smaller size for the photo */
     height: 80px;
     object-fit: cover; /* Ensures no distortion of the image */
-    margin-bottom: 10px; /* Space between the image and the name */
+    margin-bottom: 2px; /* Space between the image and the name */
 }
 
 /* Links */
