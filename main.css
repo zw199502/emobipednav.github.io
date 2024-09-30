@@ -16,12 +16,12 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center; /* Center the grid */
-    width: 80%; /* Limit the grid width to match the text width */
+    width: 60%; /* Limit the grid width to match the text width */
     margin: 0 auto; /* Center the grid on the page */
 }
 
 #video_grid > .video_wrapper {
-    width: 18%; /* Adjust the width of each video wrapper to fit better with the text width */
+    width: 20%; /* Adjust the width of each video wrapper to fit better with the text width */
     margin: 10px; /* Add some space between the videos */
 }
 
