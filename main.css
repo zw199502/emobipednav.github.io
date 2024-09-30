@@ -1548,7 +1548,7 @@ html.w-mod-touch * {
 }
 
 
-/* Container for the authors */
+
 .row.uniform {
     display: flex;
     flex-wrap: wrap;
@@ -1557,28 +1557,27 @@ html.w-mod-touch * {
     margin-right: 0;
 }
 
-/* Apply spacing between the author items */
+
 .row.uniform > * {
-    padding: 0 0.5em; /* Space between items */
+    padding: 0 0.5em;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center the name and image */
-    justify-content: center; /* Align name and image vertically */
+    align-items: center;
+    justify-content: center;
 }
 
-/* Adjust the box containing the authors */
+
 .box.alt {
     margin-bottom: 1em;
 }
 
-/* Make images fit within their containers and adjust size */
 .image.fit img {
     display: block;
-    border-radius: 50%; /* Make the images circular */
-    width: 80px; /* Smaller size for the photo */
+    border-radius: 50%; 
+    width: 80px;
     height: 80px;
-    object-fit: cover; /* Ensures no distortion of the image */
-    margin-bottom: 5px; /* Space between the image and the name */
+    object-fit: cover;
+    margin-bottom: 5px;
 }
 
 /* Links */
@@ -1586,17 +1585,16 @@ a {
     text-decoration: none;
     font-size: 1em;
     line-height: 1.5em;a {
-        color: green; /* Set the name color to green */
-        text-decoration: underline; /* Add underline */
+        color: green;
+        text-decoration: underline;
         font-size: 1em;
         line-height: 1.5em;
-        text-align: center; /* Center the name text */
+        text-align: center;
     }
     
-    /* Optionally, change the hover color */
     a:hover {
-        color: darkgreen; /* Darker green on hover */
-        text-decoration: underline; /* Keep underline on hover */
+        color: darkgreen;
+        text-decoration: underline;
     }
     text-align: center;
 }
