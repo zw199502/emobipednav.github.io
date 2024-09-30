@@ -16,12 +16,12 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 60%;
+    width: 50%;
     margin: 0 auto; 
 }
 
 #video_grid > .video_wrapper {
-    width: 33.333%;
+    width: 30%;
 }
 
 #video_grid > .video_wrapper > .video_container {
@@ -1548,7 +1548,7 @@ html.w-mod-touch * {
 }
 
 
-
+/* Container for the authors */
 .row.uniform {
     display: flex;
     flex-wrap: wrap;
@@ -1557,34 +1557,50 @@ html.w-mod-touch * {
     margin-right: 0;
 }
 
-
+/* Apply spacing between the author items */
 .row.uniform > * {
-    padding: 0 0.5em;
+    padding: 0 0.5em; /* Space between items */
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: center; /* Center the name and image */
+    justify-content: center; /* Align name and image vertically */
 }
 
-
+/* Adjust the box containing the authors */
 .box.alt {
     margin-bottom: 1em;
 }
 
+/* Make images fit within their containers and adjust size */
 .image.fit img {
     display: block;
-    border-radius: 50%; 
-    width: 80px;
+    border-radius: 50%; /* Make the images circular */
+    width: 80px; /* Smaller size for the photo */
     height: 80px;
-    object-fit: cover;
-    margin-bottom: 0px;
+    object-fit: cover; /* Ensures no distortion of the image */
+    margin-bottom: 5px; /* Space between the image and the name */
 }
 
+/* Links */
 a {
-    color: #49bf9d; /* Green color */
-    text-decoration: underline; /* Always underlined */
+    text-decoration: none;
+    font-size: 1em;
+    line-height: 1.5em;a {
+    color: green; /* Set the name color to green */
+    text-decoration: underline; /* Add underline */
+    font-size: 1em;
+    line-height: 1.5em;
+    text-align: center; /* Center the name text */
+}
+
+/* Optionally, change the hover color */
+a:hover {
+    color: darkgreen; /* Darker green on hover */
+    text-decoration: underline; /* Keep underline on hover */
+}
+    text-align: center;
 }
 
 a:hover {
-    color: #49bf9d; /* Keep the color green on hover */
+    text-decoration: underline;
 }
