@@ -16,7 +16,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 50%;
+    width: 70%;
     margin: 0 auto; 
 }
 
@@ -1548,6 +1548,8 @@ html.w-mod-touch * {
 }
 
 
+
+
 /* Container for the authors */
 .row.uniform {
     display: flex;
@@ -1578,27 +1580,15 @@ html.w-mod-touch * {
     width: 80px; /* Smaller size for the photo */
     height: 80px;
     object-fit: cover; /* Ensures no distortion of the image */
-    margin-bottom: 5px; /* Space between the image and the name */
+    margin-bottom: 10px; /* Space between the image and the name */
 }
 
 /* Links */
 a {
     text-decoration: none;
     font-size: 1em;
-    line-height: 1.5em;a {
-    color: green; /* Set the name color to green */
-    text-decoration: underline; /* Add underline */
-    font-size: 1em;
     line-height: 1.5em;
-    text-align: center; /* Center the name text */
-}
-
-/* Optionally, change the hover color */
-a:hover {
-    color: darkgreen; /* Darker green on hover */
-    text-decoration: underline; /* Keep underline on hover */
-}
-    text-align: center;
+    text-align: center; /* Align the name text to the center */
 }
 
 a:hover {
