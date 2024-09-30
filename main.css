@@ -1548,27 +1548,48 @@ html.w-mod-touch * {
 }
 
 
-/* Style for the circular photos */
-.author-photo {
-    width: 100px;  /* Adjust the size as needed */
-    height: 100px;
-    border-radius: 50%;  /* Makes the image circular */
-    object-fit: cover;   /* Ensures the image covers the entire area without distortion */
-    margin-bottom: 10px; /* Space between the photo and the name */
-}
-
-
-.author-container {
+/* Container for the authors */
+.row.uniform {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; 
+    justify-content: center;
+    margin-left: 0;
+    margin-right: 0;
 }
 
-.grid-item {
-    text-align: center;
-    margin: 20px;
+/* Apply spacing between the author items */
+.row.uniform > * {
+    padding: 0 0.5em; /* Adjust the space between items */
 }
 
-.mobile-author-container-2 {
-    display: none;
+/* Adjust the box containing the authors */
+.box.alt {
+    margin-bottom: 1em;
+}
+
+/* Make images fit within their containers */
+.image.fit {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* Circular author photos */
+.image.fit img {
+    display: block;
+    border-radius: 50%; /* Make the images circular */
+    width: 100px; /* Adjust the size of the author images */
+    height: 100px;
+    object-fit: cover; /* Ensure the images fit nicely */
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+a:hover {
+    text-decoration: underline;
 }
