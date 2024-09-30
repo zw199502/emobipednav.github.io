@@ -16,7 +16,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center; /* Center the grid */
-    width: 60%; /* Limit the grid width to match the text width */
+    width: 80%; /* Limit the grid width to match the text width */
     margin: 0 auto; /* Center the grid on the page */
 }
 
@@ -30,7 +30,7 @@ body {
 }
 
 #video_grid > .video_wrapper > .video_container > video {
-    width: 60%; /* Ensure the video fills its container */
+    width: 100%; /* Ensure the video fills its container */
     height: auto;
     grid-column: 1; /* Keep the video in the first column */
     grid-row: 1; /* Keep the video in the first row */
