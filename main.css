@@ -16,7 +16,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 80%;
+    width: 60%;
     margin: 0 auto; 
 }
 
@@ -1577,28 +1577,14 @@ html.w-mod-touch * {
     width: 80px;
     height: 80px;
     object-fit: cover;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 
-/* Links */
 a {
-    text-decoration: none;
-    font-size: 1em;
-    line-height: 1.5em;a {
-        color: green;
-        text-decoration: underline;
-        font-size: 1em;
-        line-height: 1.5em;
-        text-align: center;
-    }
-    
-    a:hover {
-        color: darkgreen;
-        text-decoration: underline;
-    }
-    text-align: center;
+    color: #49bf9d; /* Green color */
+    text-decoration: underline; /* Always underlined */
 }
 
 a:hover {
-    text-decoration: underline;
+    color: #49bf9d; /* Keep the color green on hover */
 }
