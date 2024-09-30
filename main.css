@@ -15,25 +15,24 @@ body {
 #video_grid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Center the grid */
-    width: 80%; /* Limit the grid width to match the text width */
-    margin: 0 auto; /* Center the grid on the page */
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto; 
 }
 
 #video_grid > .video_wrapper {
-    width: 30%; /* Adjust the width of each video wrapper to fit better with the text width */
-    margin: 10px; /* Add some space between the videos */
+    width: 33.333%;
 }
 
 #video_grid > .video_wrapper > .video_container {
-    display: grid; /* Keep the grid layout */
+    display: grid;
 }
 
 #video_grid > .video_wrapper > .video_container > video {
-    width: 100%; /* Ensure the video fills its container */
+    width: 100%;
     height: auto;
-    grid-column: 1; /* Keep the video in the first column */
-    grid-row: 1; /* Keep the video in the first row */
+    grid-column: 1;
+    grid-row: 1;
     margin: 0;
     padding: 0;
 }
