@@ -1598,14 +1598,10 @@ a:hover {
 
 
 
-.footer {
-    text-align: center;
-    margin-top: 20px;
-    padding: 10px 0;
-    background-color: transparent;
+#footer {
+    text-align: left; /* Align the text to the left */
+    font-size: 0.5em; /* Make the font smaller */
+    color: #a9a9a9; /* Use a lighter gray color */
+    padding: 20px; /* Add padding to give some space around the text */
+    background-color: #f9f9f9; /* Optional: very light background color */
 }
-
-.footer p {
-    color: gray;
-    font-size: 0.8em; /* Adjust size as needed */
-    font-family: Arial,
