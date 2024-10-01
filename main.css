@@ -1595,3 +1595,17 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: transparent;
+}
+
+.footer p {
+    color: gray;
+    font-size: 0.8em; /* Adjust size as needed */
+    font-family: Arial,
