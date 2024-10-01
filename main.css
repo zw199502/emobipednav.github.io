@@ -1600,8 +1600,8 @@ a:hover {
 
 #footer {
     text-align: left; /* Align the text to the left */
-    font-size: 0.5em; /* Make the font smaller */
-    color: #a9a9a9; /* Use a lighter gray color */
+    font-size: 0.6vw !important;
+    color: #2f2f2f;
     padding: 20px; /* Add padding to give some space around the text */
     background-color: #f9f9f9; /* Optional: very light background color */
 }
