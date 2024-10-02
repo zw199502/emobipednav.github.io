@@ -1607,7 +1607,7 @@ a:hover {
 
 .footer p {
     color: gray;
-    font-size: 0.3em; /* Adjust size as needed */
+    font-size: 0.8vw !important; /* Adjust size as needed */
     font-family: Arial, sans-serif; /* Fixed font-family */
     line-height: 1.2; /* Optional: Adjust line-height */
 }
